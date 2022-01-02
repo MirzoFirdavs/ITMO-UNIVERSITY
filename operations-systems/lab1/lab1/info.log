@@ -1,0 +1,380 @@
+Oct  2 00:19:00 darling-HP-Laptop-15-da1xxx NetworkManager[783]: <info>  [1633115940.4497] dhcp4 (wlo1): option dhcp_lease_time      => '3600'
+Oct  2 00:19:00 darling-HP-Laptop-15-da1xxx NetworkManager[783]: <info>  [1633115940.4500] dhcp4 (wlo1): option domain_name_servers  => '192.168.43.1'
+Oct  2 00:19:00 darling-HP-Laptop-15-da1xxx NetworkManager[783]: <info>  [1633115940.4500] dhcp4 (wlo1): option expiry               => '1633119540'
+Oct  2 00:19:00 darling-HP-Laptop-15-da1xxx NetworkManager[783]: <info>  [1633115940.4500] dhcp4 (wlo1): option host_name            => 'darling-HP-Laptop-15-da1xxx'
+Oct  2 00:19:00 darling-HP-Laptop-15-da1xxx NetworkManager[783]: <info>  [1633115940.4501] dhcp4 (wlo1): option ip_address           => '192.168.43.176'
+Oct  2 00:19:00 darling-HP-Laptop-15-da1xxx NetworkManager[783]: <info>  [1633115940.4501] dhcp4 (wlo1): option next_server          => '192.168.43.1'
+Oct  2 00:19:00 darling-HP-Laptop-15-da1xxx NetworkManager[783]: <info>  [1633115940.4501] dhcp4 (wlo1): option requested_broadcast_address => '1'
+Oct  2 00:19:00 darling-HP-Laptop-15-da1xxx NetworkManager[783]: <info>  [1633115940.4501] dhcp4 (wlo1): option requested_domain_name => '1'
+Oct  2 00:19:00 darling-HP-Laptop-15-da1xxx NetworkManager[783]: <info>  [1633115940.4501] dhcp4 (wlo1): option requested_domain_name_servers => '1'
+Oct  2 00:19:00 darling-HP-Laptop-15-da1xxx NetworkManager[783]: <info>  [1633115940.4502] dhcp4 (wlo1): option requested_domain_search => '1'
+Oct  2 00:19:00 darling-HP-Laptop-15-da1xxx NetworkManager[783]: <info>  [1633115940.4502] dhcp4 (wlo1): option requested_host_name  => '1'
+Oct  2 00:19:00 darling-HP-Laptop-15-da1xxx NetworkManager[783]: <info>  [1633115940.4502] dhcp4 (wlo1): option requested_interface_mtu => '1'
+Oct  2 00:19:00 darling-HP-Laptop-15-da1xxx NetworkManager[783]: <info>  [1633115940.4502] dhcp4 (wlo1): option requested_ms_classless_static_routes => '1'
+Oct  2 00:19:00 darling-HP-Laptop-15-da1xxx NetworkManager[783]: <info>  [1633115940.4502] dhcp4 (wlo1): option requested_nis_domain => '1'
+Oct  2 00:19:00 darling-HP-Laptop-15-da1xxx NetworkManager[783]: <info>  [1633115940.4503] dhcp4 (wlo1): option requested_nis_servers => '1'
+Oct  2 00:19:00 darling-HP-Laptop-15-da1xxx NetworkManager[783]: <info>  [1633115940.4503] dhcp4 (wlo1): option requested_ntp_servers => '1'
+Oct  2 00:19:00 darling-HP-Laptop-15-da1xxx NetworkManager[783]: <info>  [1633115940.4503] dhcp4 (wlo1): option requested_rfc3442_classless_static_routes => '1'
+Oct  2 00:19:00 darling-HP-Laptop-15-da1xxx NetworkManager[783]: <info>  [1633115940.4504] dhcp4 (wlo1): option requested_root_path  => '1'
+Oct  2 00:19:00 darling-HP-Laptop-15-da1xxx NetworkManager[783]: <info>  [1633115940.4504] dhcp4 (wlo1): option requested_routers    => '1'
+Oct  2 00:19:00 darling-HP-Laptop-15-da1xxx NetworkManager[783]: <info>  [1633115940.4504] dhcp4 (wlo1): option requested_static_routes => '1'
+Oct  2 00:19:00 darling-HP-Laptop-15-da1xxx NetworkManager[783]: <info>  [1633115940.4504] dhcp4 (wlo1): option requested_subnet_mask => '1'
+Oct  2 00:19:00 darling-HP-Laptop-15-da1xxx NetworkManager[783]: <info>  [1633115940.4505] dhcp4 (wlo1): option requested_time_offset => '1'
+Oct  2 00:19:00 darling-HP-Laptop-15-da1xxx NetworkManager[783]: <info>  [1633115940.4505] dhcp4 (wlo1): option requested_wpad       => '1'
+Oct  2 00:19:00 darling-HP-Laptop-15-da1xxx NetworkManager[783]: <info>  [1633115940.4505] dhcp4 (wlo1): option routers              => '192.168.43.1'
+Oct  2 00:19:00 darling-HP-Laptop-15-da1xxx NetworkManager[783]: <info>  [1633115940.4505] dhcp4 (wlo1): option subnet_mask          => '255.255.255.0'
+Oct  2 00:19:00 darling-HP-Laptop-15-da1xxx NetworkManager[783]: <info>  [1633115940.4505] dhcp4 (wlo1): state changed bound -> extended
+Oct  2 00:23:15 darling-HP-Laptop-15-da1xxx ModemManager[923]: <info>  caught signal, shutting down...
+Oct  2 00:23:15 darling-HP-Laptop-15-da1xxx ModemManager[923]: <info>  ModemManager is shut down
+Oct  2 00:23:15 darling-HP-Laptop-15-da1xxx NetworkManager[783]: <info>  [1633116195.4796] modem-manager: ModemManager no longer available
+Oct  2 15:16:58 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169818.1800] NetworkManager (version 1.26.2) is starting... (for the first time)
+Oct  2 15:16:58 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169818.1803] Read config: /etc/NetworkManager/NetworkManager.conf (lib: 10-dns-resolved.conf, 20-connectivity-ubuntu.conf, no-mac-addr-change.conf) (run: 10-globally-managed-devices.conf) (etc: 10-ubuntu-fan.conf, default-wifi-powersave-on.conf)
+Oct  2 15:16:58 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169818.2415] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+Oct  2 15:16:58 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169818.5468] manager[0x55d193918030]: monitoring kernel firmware directory '/lib/firmware'.
+Oct  2 15:16:58 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169818.5469] monitoring ifupdown state file '/run/network/ifstate'.
+Oct  2 15:16:58 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169818.9646] hostname: hostname: using hostnamed
+Oct  2 15:16:58 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169818.9647] hostname: hostname changed from (none) to "darling-HP-Laptop-15-da1xxx"
+Oct  2 15:16:58 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169818.9656] dns-mgr[0x55d193903290]: init: dns=systemd-resolved rc-manager=symlink, plugin=systemd-resolved
+Oct  2 15:16:58 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169818.9673] rfkill0: found Wi-Fi radio killswitch (at /sys/devices/pci0000:00/0000:00:1d.1/0000:03:00.0/ieee80211/phy0/rfkill0) (driver rtl8821ce)
+Oct  2 15:16:58 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169818.9679] manager[0x55d193918030]: rfkill: Wi-Fi hardware radio set enabled
+Oct  2 15:16:58 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169818.9679] manager[0x55d193918030]: rfkill: WWAN hardware radio set enabled
+Oct  2 15:17:00 darling-HP-Laptop-15-da1xxx ModemManager[904]: <info>  ModemManager (version 1.14.2) starting in system bus...
+Oct  2 15:17:00 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169820.3517] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.26.2/libnm-device-plugin-adsl.so)
+Oct  2 15:17:00 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169820.8915] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.26.2/libnm-device-plugin-bluetooth.so)
+Oct  2 15:17:01 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169821.3536] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.26.2/libnm-device-plugin-wifi.so)
+Oct  2 15:17:01 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169821.7983] Loaded device plugin: NMTeamFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.26.2/libnm-device-plugin-team.so)
+Oct  2 15:17:01 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169821.9775] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.26.2/libnm-device-plugin-wwan.so)
+Oct  2 15:17:01 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169821.9785] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+Oct  2 15:17:01 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169821.9788] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Oct  2 15:17:01 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169821.9789] manager: Networking is enabled by state file
+Oct  2 15:17:01 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169821.9793] dhcp-init: Using DHCP client 'internal'
+Oct  2 15:17:02 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169822.1446] settings: Loaded settings plugin: ifupdown ("/usr/lib/x86_64-linux-gnu/NetworkManager/1.26.2/libnm-settings-plugin-ifupdown.so")
+Oct  2 15:17:02 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169822.1447] settings: Loaded settings plugin: keyfile (internal)
+Oct  2 15:17:02 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169822.1448] ifupdown: management mode: unmanaged
+Oct  2 15:17:03 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169823.3551] device (lo): carrier: link connected
+Oct  2 15:17:03 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169823.3562] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+Oct  2 15:17:03 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169823.3598] manager: (eno1): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Oct  2 15:17:03 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169823.3932] device (eno1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Oct  2 15:17:03 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169823.9445] device (wlo1): driver supports Access Point (AP) mode
+Oct  2 15:17:03 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169823.9449] manager: (wlo1): new 802.11 Wi-Fi device (/org/freedesktop/NetworkManager/Devices/3)
+Oct  2 15:17:03 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169823.9455] device (wlo1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Oct  2 15:17:04 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169824.6100] modem-manager: ModemManager available
+Oct  2 15:17:05 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169825.0640] device (wlo1): supplicant interface state: internal-starting -> disconnected
+Oct  2 15:17:05 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169825.0642] device (wlo1): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Oct  2 15:17:06 darling-HP-Laptop-15-da1xxx ModemManager[904]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:1d.0/0000:02:00.0': not supported by any plugin
+Oct  2 15:17:06 darling-HP-Laptop-15-da1xxx ModemManager[904]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:1d.1/0000:03:00.0': not supported by any plugin
+Oct  2 15:17:09 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169829.4989] policy: auto-activating connection 'FTnt-U01OOTE1Uw' (31a72dce-7491-40a5-b0c5-cba8c13e2537)
+Oct  2 15:17:09 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169829.5003] device (wlo1): Activation: starting connection 'FTnt-U01OOTE1Uw' (31a72dce-7491-40a5-b0c5-cba8c13e2537)
+Oct  2 15:17:09 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169829.5007] device (wlo1): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct  2 15:17:09 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169829.5021] manager: NetworkManager state is now CONNECTING
+Oct  2 15:17:09 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169829.5036] device (wlo1): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct  2 15:17:09 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169829.5099] device (wlo1): Activation: (wifi) connection 'FTnt-U01OOTE1Uw' requires no security.  No secrets needed.
+Oct  2 15:17:09 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169829.5101] Config: added 'ssid' value 'FTnt-U01OOTE1Uw'
+Oct  2 15:17:09 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169829.5102] Config: added 'scan_ssid' value '1'
+Oct  2 15:17:09 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169829.5102] Config: added 'bgscan' value 'simple:30:-70:86400'
+Oct  2 15:17:09 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169829.5103] Config: added 'key_mgmt' value 'NONE'
+Oct  2 15:17:13 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169833.3794] device (wlo1): supplicant interface state: disconnected -> associating
+Oct  2 15:17:13 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169833.6741] device (wlo1): supplicant interface state: associating -> completed
+Oct  2 15:17:13 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169833.6742] device (wlo1): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "FTnt-U01OOTE1Uw"
+Oct  2 15:17:13 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169833.6750] device (wlo1): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct  2 15:17:13 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169833.6768] dhcp4 (wlo1): activation: beginning transaction (timeout in 45 seconds)
+Oct  2 15:17:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169834.2499] dhcp4 (wlo1): option dhcp_lease_time      => '3600'
+Oct  2 15:17:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169834.2501] dhcp4 (wlo1): option domain_name_servers  => '192.168.43.1'
+Oct  2 15:17:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169834.2501] dhcp4 (wlo1): option expiry               => '1633173433'
+Oct  2 15:17:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169834.2501] dhcp4 (wlo1): option host_name            => 'darling-HP-Laptop-15-da1xxx'
+Oct  2 15:17:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169834.2502] dhcp4 (wlo1): option ip_address           => '192.168.43.176'
+Oct  2 15:17:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169834.2502] dhcp4 (wlo1): option next_server          => '192.168.43.1'
+Oct  2 15:17:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169834.2502] dhcp4 (wlo1): option requested_broadcast_address => '1'
+Oct  2 15:17:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169834.2502] dhcp4 (wlo1): option requested_domain_name => '1'
+Oct  2 15:17:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169834.2503] dhcp4 (wlo1): option requested_domain_name_servers => '1'
+Oct  2 15:17:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169834.2503] dhcp4 (wlo1): option requested_domain_search => '1'
+Oct  2 15:17:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169834.2503] dhcp4 (wlo1): option requested_host_name  => '1'
+Oct  2 15:17:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169834.2503] dhcp4 (wlo1): option requested_interface_mtu => '1'
+Oct  2 15:17:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169834.2503] dhcp4 (wlo1): option requested_ms_classless_static_routes => '1'
+Oct  2 15:17:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169834.2504] dhcp4 (wlo1): option requested_nis_domain => '1'
+Oct  2 15:17:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169834.2504] dhcp4 (wlo1): option requested_nis_servers => '1'
+Oct  2 15:17:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169834.2504] dhcp4 (wlo1): option requested_ntp_servers => '1'
+Oct  2 15:17:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169834.2504] dhcp4 (wlo1): option requested_rfc3442_classless_static_routes => '1'
+Oct  2 15:17:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169834.2505] dhcp4 (wlo1): option requested_root_path  => '1'
+Oct  2 15:17:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169834.2505] dhcp4 (wlo1): option requested_routers    => '1'
+Oct  2 15:17:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169834.2505] dhcp4 (wlo1): option requested_static_routes => '1'
+Oct  2 15:17:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169834.2506] dhcp4 (wlo1): option requested_subnet_mask => '1'
+Oct  2 15:17:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169834.2506] dhcp4 (wlo1): option requested_time_offset => '1'
+Oct  2 15:17:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169834.2506] dhcp4 (wlo1): option requested_wpad       => '1'
+Oct  2 15:17:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169834.2506] dhcp4 (wlo1): option routers              => '192.168.43.1'
+Oct  2 15:17:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169834.2507] dhcp4 (wlo1): option subnet_mask          => '255.255.255.0'
+Oct  2 15:17:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169834.2507] dhcp4 (wlo1): state changed unknown -> bound
+Oct  2 15:17:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169834.2548] device (wlo1): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct  2 15:17:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169834.3145] device (wlo1): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct  2 15:17:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169834.3155] device (wlo1): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct  2 15:17:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169834.3170] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct  2 15:17:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169834.3210] manager: NetworkManager state is now CONNECTED_SITE
+Oct  2 15:17:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169834.3211] policy: set 'FTnt-U01OOTE1Uw' (wlo1) as default for IPv4 routing and DNS
+Oct  2 15:17:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169834.3215] device (wlo1): Activation: successful, device activated.
+Oct  2 15:17:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169834.3223] manager: startup complete
+Oct  2 15:17:15 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169835.1989] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct  2 15:17:28 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169848.0907] manager: (docker0): new Bridge device (/org/freedesktop/NetworkManager/Devices/4)
+Oct  2 15:17:28 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169848.1839] device (docker0): state change: unmanaged -> unavailable (reason 'connection-assumed', sys-iface-state: 'external')
+Oct  2 15:17:28 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169848.1928] device (docker0): state change: unavailable -> disconnected (reason 'connection-assumed', sys-iface-state: 'external')
+Oct  2 15:17:28 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169848.1951] device (docker0): Activation: starting connection 'docker0' (f811644e-22c8-4fb7-854d-b4704e49237b)
+Oct  2 15:17:28 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169848.1961] device (docker0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'external')
+Oct  2 15:17:28 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169848.1976] device (docker0): state change: prepare -> config (reason 'none', sys-iface-state: 'external')
+Oct  2 15:17:28 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169848.1987] device (docker0): state change: config -> ip-config (reason 'none', sys-iface-state: 'external')
+Oct  2 15:17:28 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169848.1998] device (docker0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'external')
+Oct  2 15:17:28 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169848.2555] device (docker0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'external')
+Oct  2 15:17:28 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169848.2557] device (docker0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'external')
+Oct  2 15:17:28 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169848.2566] device (docker0): Activation: successful, device activated.
+Oct  2 15:18:16 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633169896.4327] agent-manager: agent[d27a8bcab8d582ff,:1.162/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Oct  2 15:22:34 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633170154.7460] manager: NetworkManager state is now CONNECTED_SITE
+Oct  2 15:22:35 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633170155.1586] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct  2 15:47:13 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633171633.9960] dhcp4 (wlo1): option dhcp_lease_time      => '3600'
+Oct  2 15:47:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633171633.9961] dhcp4 (wlo1): option domain_name_servers  => '192.168.43.1'
+Oct  2 15:47:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633171633.9962] dhcp4 (wlo1): option expiry               => '1633175233'
+Oct  2 15:47:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633171633.9962] dhcp4 (wlo1): option host_name            => 'darling-HP-Laptop-15-da1xxx'
+Oct  2 15:47:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633171633.9962] dhcp4 (wlo1): option ip_address           => '192.168.43.176'
+Oct  2 15:47:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633171633.9962] dhcp4 (wlo1): option next_server          => '192.168.43.1'
+Oct  2 15:47:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633171633.9963] dhcp4 (wlo1): option requested_broadcast_address => '1'
+Oct  2 15:47:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633171633.9963] dhcp4 (wlo1): option requested_domain_name => '1'
+Oct  2 15:47:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633171633.9963] dhcp4 (wlo1): option requested_domain_name_servers => '1'
+Oct  2 15:47:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633171633.9963] dhcp4 (wlo1): option requested_domain_search => '1'
+Oct  2 15:47:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633171633.9964] dhcp4 (wlo1): option requested_host_name  => '1'
+Oct  2 15:47:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633171633.9964] dhcp4 (wlo1): option requested_interface_mtu => '1'
+Oct  2 15:47:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633171633.9964] dhcp4 (wlo1): option requested_ms_classless_static_routes => '1'
+Oct  2 15:47:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633171633.9964] dhcp4 (wlo1): option requested_nis_domain => '1'
+Oct  2 15:47:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633171633.9964] dhcp4 (wlo1): option requested_nis_servers => '1'
+Oct  2 15:47:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633171633.9965] dhcp4 (wlo1): option requested_ntp_servers => '1'
+Oct  2 15:47:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633171633.9965] dhcp4 (wlo1): option requested_rfc3442_classless_static_routes => '1'
+Oct  2 15:47:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633171633.9965] dhcp4 (wlo1): option requested_root_path  => '1'
+Oct  2 15:47:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633171633.9965] dhcp4 (wlo1): option requested_routers    => '1'
+Oct  2 15:47:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633171633.9965] dhcp4 (wlo1): option requested_static_routes => '1'
+Oct  2 15:47:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633171633.9966] dhcp4 (wlo1): option requested_subnet_mask => '1'
+Oct  2 15:47:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633171633.9966] dhcp4 (wlo1): option requested_time_offset => '1'
+Oct  2 15:47:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633171633.9966] dhcp4 (wlo1): option requested_wpad       => '1'
+Oct  2 15:47:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633171633.9966] dhcp4 (wlo1): option routers              => '192.168.43.1'
+Oct  2 15:47:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633171633.9966] dhcp4 (wlo1): option subnet_mask          => '255.255.255.0'
+Oct  2 15:47:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633171633.9967] dhcp4 (wlo1): state changed bound -> extended
+Oct  2 15:57:54 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633172274.7459] manager: NetworkManager state is now CONNECTED_SITE
+Oct  2 15:57:55 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633172275.0930] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct  2 16:08:14 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633172894.7455] manager: NetworkManager state is now CONNECTED_SITE
+Oct  2 16:08:19 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633172899.0973] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct  2 16:08:37 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633172917.7454] manager: NetworkManager state is now CONNECTED_SITE
+Oct  2 16:08:39 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633172919.1390] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct  2 16:14:34 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633173274.9880] dhcp4 (wlo1): option dhcp_lease_time      => '3600'
+Oct  2 16:14:34 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633173274.9881] dhcp4 (wlo1): option domain_name_servers  => '192.168.43.1'
+Oct  2 16:14:34 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633173274.9881] dhcp4 (wlo1): option expiry               => '1633176874'
+Oct  2 16:14:34 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633173274.9881] dhcp4 (wlo1): option host_name            => 'darling-HP-Laptop-15-da1xxx'
+Oct  2 16:14:34 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633173274.9881] dhcp4 (wlo1): option ip_address           => '192.168.43.176'
+Oct  2 16:14:34 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633173274.9882] dhcp4 (wlo1): option next_server          => '192.168.43.1'
+Oct  2 16:14:34 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633173274.9882] dhcp4 (wlo1): option requested_broadcast_address => '1'
+Oct  2 16:14:34 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633173274.9882] dhcp4 (wlo1): option requested_domain_name => '1'
+Oct  2 16:14:34 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633173274.9882] dhcp4 (wlo1): option requested_domain_name_servers => '1'
+Oct  2 16:14:34 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633173274.9882] dhcp4 (wlo1): option requested_domain_search => '1'
+Oct  2 16:14:34 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633173274.9883] dhcp4 (wlo1): option requested_host_name  => '1'
+Oct  2 16:14:34 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633173274.9883] dhcp4 (wlo1): option requested_interface_mtu => '1'
+Oct  2 16:14:34 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633173274.9883] dhcp4 (wlo1): option requested_ms_classless_static_routes => '1'
+Oct  2 16:14:34 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633173274.9883] dhcp4 (wlo1): option requested_nis_domain => '1'
+Oct  2 16:14:34 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633173274.9884] dhcp4 (wlo1): option requested_nis_servers => '1'
+Oct  2 16:14:34 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633173274.9884] dhcp4 (wlo1): option requested_ntp_servers => '1'
+Oct  2 16:14:34 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633173274.9884] dhcp4 (wlo1): option requested_rfc3442_classless_static_routes => '1'
+Oct  2 16:14:34 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633173274.9885] dhcp4 (wlo1): option requested_root_path  => '1'
+Oct  2 16:14:34 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633173274.9885] dhcp4 (wlo1): option requested_routers    => '1'
+Oct  2 16:14:34 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633173274.9885] dhcp4 (wlo1): option requested_static_routes => '1'
+Oct  2 16:14:34 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633173274.9885] dhcp4 (wlo1): option requested_subnet_mask => '1'
+Oct  2 16:14:34 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633173274.9885] dhcp4 (wlo1): option requested_time_offset => '1'
+Oct  2 16:14:34 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633173274.9885] dhcp4 (wlo1): option requested_wpad       => '1'
+Oct  2 16:14:34 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633173274.9886] dhcp4 (wlo1): option routers              => '192.168.43.1'
+Oct  2 16:14:34 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633173274.9886] dhcp4 (wlo1): option subnet_mask          => '255.255.255.0'
+Oct  2 16:14:34 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633173274.9886] dhcp4 (wlo1): state changed extended -> extended
+Oct  2 16:24:13 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633173853.7573] manager: NetworkManager state is now CONNECTED_SITE
+Oct  2 16:24:20 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633173860.7144] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct  2 16:29:36 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633174176.7451] manager: NetworkManager state is now CONNECTED_SITE
+Oct  2 16:29:44 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633174184.1340] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct  2 16:40:03 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633174803.7460] manager: NetworkManager state is now CONNECTED_SITE
+Oct  2 16:40:50 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633174850.5478] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct  2 16:41:16 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633174876.9403] dhcp4 (wlo1): option dhcp_lease_time      => '3600'
+Oct  2 16:41:16 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633174876.9404] dhcp4 (wlo1): option domain_name_servers  => '192.168.43.1'
+Oct  2 16:41:16 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633174876.9404] dhcp4 (wlo1): option expiry               => '1633178476'
+Oct  2 16:41:16 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633174876.9405] dhcp4 (wlo1): option host_name            => 'darling-HP-Laptop-15-da1xxx'
+Oct  2 16:41:16 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633174876.9405] dhcp4 (wlo1): option ip_address           => '192.168.43.176'
+Oct  2 16:41:16 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633174876.9405] dhcp4 (wlo1): option next_server          => '192.168.43.1'
+Oct  2 16:41:16 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633174876.9405] dhcp4 (wlo1): option requested_broadcast_address => '1'
+Oct  2 16:41:16 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633174876.9406] dhcp4 (wlo1): option requested_domain_name => '1'
+Oct  2 16:41:16 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633174876.9406] dhcp4 (wlo1): option requested_domain_name_servers => '1'
+Oct  2 16:41:16 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633174876.9406] dhcp4 (wlo1): option requested_domain_search => '1'
+Oct  2 16:41:16 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633174876.9406] dhcp4 (wlo1): option requested_host_name  => '1'
+Oct  2 16:41:16 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633174876.9407] dhcp4 (wlo1): option requested_interface_mtu => '1'
+Oct  2 16:41:16 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633174876.9407] dhcp4 (wlo1): option requested_ms_classless_static_routes => '1'
+Oct  2 16:41:16 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633174876.9407] dhcp4 (wlo1): option requested_nis_domain => '1'
+Oct  2 16:41:16 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633174876.9407] dhcp4 (wlo1): option requested_nis_servers => '1'
+Oct  2 16:41:16 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633174876.9407] dhcp4 (wlo1): option requested_ntp_servers => '1'
+Oct  2 16:41:16 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633174876.9408] dhcp4 (wlo1): option requested_rfc3442_classless_static_routes => '1'
+Oct  2 16:41:16 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633174876.9408] dhcp4 (wlo1): option requested_root_path  => '1'
+Oct  2 16:41:16 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633174876.9408] dhcp4 (wlo1): option requested_routers    => '1'
+Oct  2 16:41:16 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633174876.9408] dhcp4 (wlo1): option requested_static_routes => '1'
+Oct  2 16:41:16 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633174876.9408] dhcp4 (wlo1): option requested_subnet_mask => '1'
+Oct  2 16:41:16 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633174876.9409] dhcp4 (wlo1): option requested_time_offset => '1'
+Oct  2 16:41:16 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633174876.9409] dhcp4 (wlo1): option requested_wpad       => '1'
+Oct  2 16:41:16 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633174876.9409] dhcp4 (wlo1): option routers              => '192.168.43.1'
+Oct  2 16:41:16 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633174876.9409] dhcp4 (wlo1): option subnet_mask          => '255.255.255.0'
+Oct  2 16:41:16 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633174876.9409] dhcp4 (wlo1): state changed extended -> extended
+Oct  2 16:50:54 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633175454.7454] manager: NetworkManager state is now CONNECTED_SITE
+Oct  2 16:51:19 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633175479.6980] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct  2 16:51:29 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633175489.7452] manager: NetworkManager state is now CONNECTED_SITE
+Oct  2 16:51:30 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633175490.1298] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct  2 17:06:49 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633176409.7461] manager: NetworkManager state is now CONNECTED_SITE
+Oct  2 17:06:52 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633176412.1812] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct  2 17:07:47 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633176467.9532] dhcp4 (wlo1): option dhcp_lease_time      => '3600'
+Oct  2 17:07:48 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633176467.9532] dhcp4 (wlo1): option domain_name_servers  => '192.168.43.1'
+Oct  2 17:07:48 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633176467.9532] dhcp4 (wlo1): option expiry               => '1633180067'
+Oct  2 17:07:48 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633176467.9532] dhcp4 (wlo1): option host_name            => 'darling-HP-Laptop-15-da1xxx'
+Oct  2 17:07:48 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633176467.9532] dhcp4 (wlo1): option ip_address           => '192.168.43.176'
+Oct  2 17:07:48 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633176467.9532] dhcp4 (wlo1): option next_server          => '192.168.43.1'
+Oct  2 17:07:48 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633176467.9532] dhcp4 (wlo1): option requested_broadcast_address => '1'
+Oct  2 17:07:48 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633176467.9532] dhcp4 (wlo1): option requested_domain_name => '1'
+Oct  2 17:07:48 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633176467.9533] dhcp4 (wlo1): option requested_domain_name_servers => '1'
+Oct  2 17:07:48 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633176467.9533] dhcp4 (wlo1): option requested_domain_search => '1'
+Oct  2 17:07:48 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633176467.9533] dhcp4 (wlo1): option requested_host_name  => '1'
+Oct  2 17:07:48 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633176467.9533] dhcp4 (wlo1): option requested_interface_mtu => '1'
+Oct  2 17:07:48 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633176467.9533] dhcp4 (wlo1): option requested_ms_classless_static_routes => '1'
+Oct  2 17:07:48 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633176467.9533] dhcp4 (wlo1): option requested_nis_domain => '1'
+Oct  2 17:07:48 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633176467.9533] dhcp4 (wlo1): option requested_nis_servers => '1'
+Oct  2 17:07:48 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633176467.9533] dhcp4 (wlo1): option requested_ntp_servers => '1'
+Oct  2 17:07:48 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633176467.9533] dhcp4 (wlo1): option requested_rfc3442_classless_static_routes => '1'
+Oct  2 17:07:48 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633176467.9533] dhcp4 (wlo1): option requested_root_path  => '1'
+Oct  2 17:07:48 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633176467.9533] dhcp4 (wlo1): option requested_routers    => '1'
+Oct  2 17:07:48 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633176467.9533] dhcp4 (wlo1): option requested_static_routes => '1'
+Oct  2 17:07:48 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633176467.9533] dhcp4 (wlo1): option requested_subnet_mask => '1'
+Oct  2 17:07:48 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633176467.9533] dhcp4 (wlo1): option requested_time_offset => '1'
+Oct  2 17:07:48 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633176467.9533] dhcp4 (wlo1): option requested_wpad       => '1'
+Oct  2 17:07:48 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633176467.9533] dhcp4 (wlo1): option routers              => '192.168.43.1'
+Oct  2 17:07:48 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633176467.9533] dhcp4 (wlo1): option subnet_mask          => '255.255.255.0'
+Oct  2 17:07:48 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633176467.9534] dhcp4 (wlo1): state changed extended -> extended
+Oct  2 17:25:57 darling-HP-Laptop-15-da1xxx ModemManager[904]: <info>  caught signal, shutting down...
+Oct  2 17:25:57 darling-HP-Laptop-15-da1xxx NetworkManager[784]: <info>  [1633177557.8632] modem-manager: ModemManager no longer available
+Oct  2 17:25:57 darling-HP-Laptop-15-da1xxx ModemManager[904]: <info>  ModemManager is shut down
+Oct  2 20:36:43 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189003.7386] NetworkManager (version 1.26.2) is starting... (for the first time)
+Oct  2 20:36:43 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189003.7389] Read config: /etc/NetworkManager/NetworkManager.conf (lib: 10-dns-resolved.conf, 20-connectivity-ubuntu.conf, no-mac-addr-change.conf) (run: 10-globally-managed-devices.conf) (etc: 10-ubuntu-fan.conf, default-wifi-powersave-on.conf)
+Oct  2 20:36:43 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189003.7805] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+Oct  2 20:36:44 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189004.7978] manager[0x56070bb02000]: monitoring kernel firmware directory '/lib/firmware'.
+Oct  2 20:36:44 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189004.7979] monitoring ifupdown state file '/run/network/ifstate'.
+Oct  2 20:36:45 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189005.0119] hostname: hostname: using hostnamed
+Oct  2 20:36:45 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189005.0121] hostname: hostname changed from (none) to "darling-HP-Laptop-15-da1xxx"
+Oct  2 20:36:45 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189005.0132] dns-mgr[0x56070bae4290]: init: dns=systemd-resolved rc-manager=symlink, plugin=systemd-resolved
+Oct  2 20:36:45 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189005.0159] rfkill0: found Wi-Fi radio killswitch (at /sys/devices/pci0000:00/0000:00:1d.1/0000:03:00.0/ieee80211/phy0/rfkill0) (driver rtl8821ce)
+Oct  2 20:36:45 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189005.0163] manager[0x56070bb02000]: rfkill: Wi-Fi hardware radio set enabled
+Oct  2 20:36:45 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189005.0163] manager[0x56070bb02000]: rfkill: WWAN hardware radio set enabled
+Oct  2 20:36:45 darling-HP-Laptop-15-da1xxx ModemManager[908]: <info>  ModemManager (version 1.14.2) starting in system bus...
+Oct  2 20:36:46 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189006.2637] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.26.2/libnm-device-plugin-adsl.so)
+Oct  2 20:36:47 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189007.3634] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.26.2/libnm-device-plugin-bluetooth.so)
+Oct  2 20:36:47 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189007.5738] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.26.2/libnm-device-plugin-wifi.so)
+Oct  2 20:36:47 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189007.9073] Loaded device plugin: NMTeamFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.26.2/libnm-device-plugin-team.so)
+Oct  2 20:36:48 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189008.0096] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.26.2/libnm-device-plugin-wwan.so)
+Oct  2 20:36:48 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189008.0105] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+Oct  2 20:36:48 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189008.0108] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Oct  2 20:36:48 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189008.0110] manager: Networking is enabled by state file
+Oct  2 20:36:48 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189008.0114] dhcp-init: Using DHCP client 'internal'
+Oct  2 20:36:48 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189008.6393] settings: Loaded settings plugin: ifupdown ("/usr/lib/x86_64-linux-gnu/NetworkManager/1.26.2/libnm-settings-plugin-ifupdown.so")
+Oct  2 20:36:48 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189008.6394] settings: Loaded settings plugin: keyfile (internal)
+Oct  2 20:36:48 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189008.6394] ifupdown: management mode: unmanaged
+Oct  2 20:36:49 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189009.3485] device (lo): carrier: link connected
+Oct  2 20:36:49 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189009.3489] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+Oct  2 20:36:49 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189009.3507] manager: (eno1): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Oct  2 20:36:49 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189009.3527] device (eno1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Oct  2 20:36:49 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189009.8478] device (wlo1): driver supports Access Point (AP) mode
+Oct  2 20:36:49 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189009.8484] manager: (wlo1): new 802.11 Wi-Fi device (/org/freedesktop/NetworkManager/Devices/3)
+Oct  2 20:36:49 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189009.8494] device (wlo1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Oct  2 20:36:50 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189010.6287] modem-manager: ModemManager available
+Oct  2 20:36:51 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189011.0681] device (wlo1): supplicant interface state: internal-starting -> disconnected
+Oct  2 20:36:51 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189011.0682] device (wlo1): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Oct  2 20:36:51 darling-HP-Laptop-15-da1xxx ModemManager[908]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:1d.0/0000:02:00.0': not supported by any plugin
+Oct  2 20:36:51 darling-HP-Laptop-15-da1xxx ModemManager[908]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:1d.1/0000:03:00.0': not supported by any plugin
+Oct  2 20:36:55 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189015.4820] policy: auto-activating connection 'FTnt-U01OOTE1Uw' (31a72dce-7491-40a5-b0c5-cba8c13e2537)
+Oct  2 20:36:55 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189015.4840] device (wlo1): Activation: starting connection 'FTnt-U01OOTE1Uw' (31a72dce-7491-40a5-b0c5-cba8c13e2537)
+Oct  2 20:36:55 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189015.4845] device (wlo1): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct  2 20:36:55 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189015.4870] manager: NetworkManager state is now CONNECTING
+Oct  2 20:36:55 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189015.4881] device (wlo1): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct  2 20:36:55 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189015.4930] device (wlo1): Activation: (wifi) connection 'FTnt-U01OOTE1Uw' requires no security.  No secrets needed.
+Oct  2 20:36:55 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189015.4932] Config: added 'ssid' value 'FTnt-U01OOTE1Uw'
+Oct  2 20:36:55 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189015.4932] Config: added 'scan_ssid' value '1'
+Oct  2 20:36:55 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189015.4932] Config: added 'bgscan' value 'simple:30:-70:86400'
+Oct  2 20:36:55 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189015.4933] Config: added 'key_mgmt' value 'NONE'
+Oct  2 20:36:59 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189019.8658] device (wlo1): supplicant interface state: disconnected -> associating
+Oct  2 20:37:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189020.1238] device (wlo1): supplicant interface state: associating -> completed
+Oct  2 20:37:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189020.1239] device (wlo1): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "FTnt-U01OOTE1Uw"
+Oct  2 20:37:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189020.1245] device (wlo1): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct  2 20:37:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189020.1259] dhcp4 (wlo1): activation: beginning transaction (timeout in 45 seconds)
+Oct  2 20:37:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189020.9826] dhcp4 (wlo1): option dhcp_lease_time      => '3600'
+Oct  2 20:37:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189020.9827] dhcp4 (wlo1): option domain_name_servers  => '192.168.43.1'
+Oct  2 20:37:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189020.9828] dhcp4 (wlo1): option expiry               => '1633192620'
+Oct  2 20:37:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189020.9828] dhcp4 (wlo1): option host_name            => 'darling-HP-Laptop-15-da1xxx'
+Oct  2 20:37:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189020.9828] dhcp4 (wlo1): option ip_address           => '192.168.43.176'
+Oct  2 20:37:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189020.9829] dhcp4 (wlo1): option next_server          => '192.168.43.1'
+Oct  2 20:37:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189020.9829] dhcp4 (wlo1): option requested_broadcast_address => '1'
+Oct  2 20:37:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189020.9829] dhcp4 (wlo1): option requested_domain_name => '1'
+Oct  2 20:37:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189020.9829] dhcp4 (wlo1): option requested_domain_name_servers => '1'
+Oct  2 20:37:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189020.9830] dhcp4 (wlo1): option requested_domain_search => '1'
+Oct  2 20:37:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189020.9830] dhcp4 (wlo1): option requested_host_name  => '1'
+Oct  2 20:37:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189020.9830] dhcp4 (wlo1): option requested_interface_mtu => '1'
+Oct  2 20:37:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189020.9831] dhcp4 (wlo1): option requested_ms_classless_static_routes => '1'
+Oct  2 20:37:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189020.9831] dhcp4 (wlo1): option requested_nis_domain => '1'
+Oct  2 20:37:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189020.9831] dhcp4 (wlo1): option requested_nis_servers => '1'
+Oct  2 20:37:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189020.9831] dhcp4 (wlo1): option requested_ntp_servers => '1'
+Oct  2 20:37:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189020.9832] dhcp4 (wlo1): option requested_rfc3442_classless_static_routes => '1'
+Oct  2 20:37:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189020.9832] dhcp4 (wlo1): option requested_root_path  => '1'
+Oct  2 20:37:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189020.9832] dhcp4 (wlo1): option requested_routers    => '1'
+Oct  2 20:37:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189020.9832] dhcp4 (wlo1): option requested_static_routes => '1'
+Oct  2 20:37:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189020.9833] dhcp4 (wlo1): option requested_subnet_mask => '1'
+Oct  2 20:37:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189020.9833] dhcp4 (wlo1): option requested_time_offset => '1'
+Oct  2 20:37:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189020.9833] dhcp4 (wlo1): option requested_wpad       => '1'
+Oct  2 20:37:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189020.9833] dhcp4 (wlo1): option routers              => '192.168.43.1'
+Oct  2 20:37:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189020.9834] dhcp4 (wlo1): option subnet_mask          => '255.255.255.0'
+Oct  2 20:37:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189020.9834] dhcp4 (wlo1): state changed unknown -> bound
+Oct  2 20:37:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189020.9873] device (wlo1): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct  2 20:37:01 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189021.0977] device (wlo1): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct  2 20:37:01 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189021.0989] device (wlo1): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct  2 20:37:01 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189021.1007] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct  2 20:37:01 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189021.1058] manager: NetworkManager state is now CONNECTED_SITE
+Oct  2 20:37:01 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189021.1063] policy: set 'FTnt-U01OOTE1Uw' (wlo1) as default for IPv4 routing and DNS
+Oct  2 20:37:01 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189021.1080] device (wlo1): Activation: successful, device activated.
+Oct  2 20:37:01 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189021.1105] manager: startup complete
+Oct  2 20:37:02 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189022.0258] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct  2 20:37:13 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189033.3105] manager: (docker0): new Bridge device (/org/freedesktop/NetworkManager/Devices/4)
+Oct  2 20:37:13 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189033.4680] device (docker0): state change: unmanaged -> unavailable (reason 'connection-assumed', sys-iface-state: 'external')
+Oct  2 20:37:13 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189033.4773] device (docker0): state change: unavailable -> disconnected (reason 'connection-assumed', sys-iface-state: 'external')
+Oct  2 20:37:13 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189033.4797] device (docker0): Activation: starting connection 'docker0' (4a42f8de-0ceb-4a0f-afff-ed9c6d50b907)
+Oct  2 20:37:13 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189033.4805] device (docker0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'external')
+Oct  2 20:37:13 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189033.4816] device (docker0): state change: prepare -> config (reason 'none', sys-iface-state: 'external')
+Oct  2 20:37:13 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189033.4827] device (docker0): state change: config -> ip-config (reason 'none', sys-iface-state: 'external')
+Oct  2 20:37:13 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189033.4835] device (docker0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'external')
+Oct  2 20:37:13 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189033.4873] device (docker0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'external')
+Oct  2 20:37:13 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189033.4880] device (docker0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'external')
+Oct  2 20:37:13 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189033.4911] device (docker0): Activation: successful, device activated.
+Oct  2 20:37:40 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633189060.9829] agent-manager: agent[78ca5ab8ba3c7947,:1.185/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Oct  2 21:07:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633190820.5019] dhcp4 (wlo1): option dhcp_lease_time      => '3600'
+Oct  2 21:07:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633190820.5021] dhcp4 (wlo1): option domain_name_servers  => '192.168.43.1'
+Oct  2 21:07:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633190820.5021] dhcp4 (wlo1): option expiry               => '1633194420'
+Oct  2 21:07:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633190820.5022] dhcp4 (wlo1): option host_name            => 'darling-HP-Laptop-15-da1xxx'
+Oct  2 21:07:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633190820.5022] dhcp4 (wlo1): option ip_address           => '192.168.43.176'
+Oct  2 21:07:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633190820.5022] dhcp4 (wlo1): option next_server          => '192.168.43.1'
+Oct  2 21:07:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633190820.5023] dhcp4 (wlo1): option requested_broadcast_address => '1'
+Oct  2 21:07:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633190820.5023] dhcp4 (wlo1): option requested_domain_name => '1'
+Oct  2 21:07:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633190820.5023] dhcp4 (wlo1): option requested_domain_name_servers => '1'
+Oct  2 21:07:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633190820.5023] dhcp4 (wlo1): option requested_domain_search => '1'
+Oct  2 21:07:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633190820.5024] dhcp4 (wlo1): option requested_host_name  => '1'
+Oct  2 21:07:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633190820.5024] dhcp4 (wlo1): option requested_interface_mtu => '1'
+Oct  2 21:07:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633190820.5024] dhcp4 (wlo1): option requested_ms_classless_static_routes => '1'
+Oct  2 21:07:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633190820.5024] dhcp4 (wlo1): option requested_nis_domain => '1'
+Oct  2 21:07:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633190820.5025] dhcp4 (wlo1): option requested_nis_servers => '1'
+Oct  2 21:07:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633190820.5025] dhcp4 (wlo1): option requested_ntp_servers => '1'
+Oct  2 21:07:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633190820.5025] dhcp4 (wlo1): option requested_rfc3442_classless_static_routes => '1'
+Oct  2 21:07:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633190820.5025] dhcp4 (wlo1): option requested_root_path  => '1'
+Oct  2 21:07:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633190820.5026] dhcp4 (wlo1): option requested_routers    => '1'
+Oct  2 21:07:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633190820.5026] dhcp4 (wlo1): option requested_static_routes => '1'
+Oct  2 21:07:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633190820.5026] dhcp4 (wlo1): option requested_subnet_mask => '1'
+Oct  2 21:07:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633190820.5026] dhcp4 (wlo1): option requested_time_offset => '1'
+Oct  2 21:07:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633190820.5026] dhcp4 (wlo1): option requested_wpad       => '1'
+Oct  2 21:07:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633190820.5027] dhcp4 (wlo1): option routers              => '192.168.43.1'
+Oct  2 21:07:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633190820.5027] dhcp4 (wlo1): option subnet_mask          => '255.255.255.0'
+Oct  2 21:07:00 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633190820.5027] dhcp4 (wlo1): state changed bound -> extended
+Oct  2 21:22:36 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633191756.1282] manager: NetworkManager state is now CONNECTED_SITE
+Oct  2 21:22:48 darling-HP-Laptop-15-da1xxx NetworkManager[785]: <info>  [1633191768.8190] manager: NetworkManager state is now CONNECTED_GLOBAL
