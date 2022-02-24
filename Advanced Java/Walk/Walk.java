@@ -42,7 +42,7 @@ public class Walk {
 
     public static void main(String[] args) {
         if (args == null || args.length != 2 || args[0] == null || args[1] == null) {
-            System.out.println("Invalid number of arguments");
+            System.err.println("Invalid number of arguments");
         } else {
             try {
                 Path inputFileName = Path.of(args[0]);
@@ -51,7 +51,7 @@ public class Walk {
                     try {
                         Files.createDirectories(outputFileName.getParent());
                     } catch (IOException e) {
-                        System.out.println("Can not create folder for output file: " + e.getMessage());
+                        System.err.println("Can not create folder for output file: " + e.getMessage());
                         return;
                     }
                 }
@@ -63,13 +63,13 @@ public class Walk {
                             writer.newLine();
                         }
                     } catch (IOException e) {
-                        System.out.println("Invalid output value " + e.getMessage());
+                        System.err.println("Invalid output value " + e.getMessage());
                     }
                 } catch (IOException e) {
-                    System.out.println("Invalid input value" + e.getMessage());
+                    System.err.println("Invalid input value" + e.getMessage());
                 }
             } catch (InvalidPathException e) {
-                System.out.println("Invalid path value " + e.getMessage());
+                System.err.println("Invalid path value " + e.getMessage());
             }
         }
     }
