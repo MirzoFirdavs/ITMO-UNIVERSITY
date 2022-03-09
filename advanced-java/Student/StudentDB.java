@@ -111,7 +111,15 @@ public class StudentDB implements GroupQuery {
      * 'getGroupsByName', 'getGroupsById'.
      **/
     private List<Group> getGroupsBy(Collection<Student> students, Comparator<Student> comparator) {
-        return students.stream().collect(Collectors.groupingBy(Student::getGroup)).entrySet().stream().sorted(Map.Entry.comparingByKey()).map(e -> new Group(e.getKey(), e.getValue().stream().sorted(comparator).collect(Collectors.toList()))).collect(Collectors.toList());
+        return students
+                .stream()
+                .collect(Collectors.groupingBy(Student::getGroup))
+                .entrySet().stream().sorted(Map.Entry.comparingByKey())
+                .map(e -> new Group(e.getKey(), e.getValue()
+                        .stream()
+                        .sorted(comparator)
+                        .collect(Collectors.toList())))
+                .collect(Collectors.toList());
     }
 
     /**
@@ -134,7 +142,10 @@ public class StudentDB implements GroupQuery {
      * Метод для воизбежания копирования частей кода, для методов:
      * 'getLargestGroup', 'getLargestGroupFirstName'.
      **/
-    private GroupName getLargestGroupFromStudentsBy(final Collection<Student> students, final Function<List<Student>, Integer> mapper, final Comparator<GroupName> keyComparator) {
+    private GroupName getLargestGroupFromStudentsBy(
+            final Collection<Student> students,
+            final Function<List<Student>, Integer> mapper,
+            final Comparator<GroupName> keyComparator) {
         return students
                 .stream()
                 .collect(Collectors.groupingBy(Student::getGroup))
