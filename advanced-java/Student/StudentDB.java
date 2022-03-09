@@ -16,7 +16,8 @@ public class StudentDB implements GroupQuery {
     private final Comparator<Student> NAME_COMPARATOR = Comparator
             .comparing(Student::getLastName)
             .thenComparing(Student::getFirstName)
-            .reversed().thenComparingInt(Student::getId);
+            .reversed()
+            .thenComparingInt(Student::getId);
 
     /**
      * Метод для воизбежания копирования частей кода, для методов:
