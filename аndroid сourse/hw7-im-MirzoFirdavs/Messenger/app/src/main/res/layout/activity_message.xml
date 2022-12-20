@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MessageActivity">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment_message_container"
+        android:name="com.github.mirzofirdavs.messenger.MessageFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:tag="@string/fragment_message_container"
+        tools:layout="@layout/fragment_message" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

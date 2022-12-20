@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">تسجيل الدخول</string>
+    <string name="email_hint">البريد الإلكتروني</string>
+    <string name="password_hint">كلمة المرور</string>
+    <string name="log_in">تسجيل الدخول</string>
+    <string name="error_email">مطلوب تسجيل الدخول</string>
+    <string name="error_password">كلمة المرور مطلوبة</string>
+    <string name="error_email_and_password">تسجيل الدخول وكلمة المرور فارغة</string>
+    <string name="incorrect_email_or_password">تسجيل الدخول أو كلمة سر خاطئة</string>
+    <string name="show_password">عرض كلمة المرور</string>
+</resources>

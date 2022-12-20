@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Messenger</string>
+    <string name="picture">picture</string>
+    <string name="chat">Chat</string>
+    <string name="fragment_chat_container">fragment_chat_container</string>
+    <string name="enter_your_message">Enter your message</string>
+    <string name="send">Send</string>
+    <string name="attach_picture">Attach picture</string>
+    <string name="fragment_message_container">fragment_message_container</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="get_chats_failure">Failed to get chats</string>
+    <string name="get_inbox_messages_failure">Failed to get inbox messages</string>
+    <string name="get_messages_from_chat_failure">Failed to get messages from chat</string>
+</resources>

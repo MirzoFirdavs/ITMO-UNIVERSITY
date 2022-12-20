@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="email_hint">e-mail</string>
+    <string name="password_hint">Password</string>
+    <string name="log_in">Login</string>
+    <string name="error_email_and_password">Login and password is empty</string>
+    <string name="error_email">Login is empty</string>
+    <string name="error_password">Password is empty</string>
+    <string name="incorrect_email_or_password">Incorrect login or password</string>
+    <string name="show_password">Show password</string>
+</resources>

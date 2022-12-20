@@ -1,0 +1,20 @@
+<!-- styles.xml -->
+<resources>
+    <style name="name_style">
+        <item name="fontFamily">"sans-serif-medium"</item>
+        <item name="fontWeight">200</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">30sp</item>
+        <item name="lineHeight">30sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="number_style">
+        <item name="fontFamily">"sans-serif-medium"</item>
+        <item name="fontWeight">200</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="lineHeight">20sp</item>
+        <item name="android:textColor">@color/cardview_dark_background</item>
+    </style>
+</resources>

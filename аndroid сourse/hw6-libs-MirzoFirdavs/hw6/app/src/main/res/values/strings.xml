@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Network</string>
+    <string name="btn_send_description">send message</string>
+    <string name="et_new_message_hint">Write a message…</string>
+    <string name="ib_message_image_description">image from message</string>
+    <string name="btn_refresh_description">refresh messages</string>
+    <string name="header_text">1@channel</string>
+    <string name="big_image_description">Selected big image</string>
+    <string name="read_external_storage_permission_not_granted">Permission to access external storage is required</string>
+    <string name="response_code_404_message">Not Found</string>
+    <string name="response_code_409_message">Conflict</string>
+    <string name="response_code_413_message">Payload Too Large</string>
+    <string name="response_code_5xx_message">Internal Server Error</string>
+    <string name="response_code_unknown_message">Unknown Error</string>
+</resources>
