@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="98f63d99-4e5a-48ee-a073-5e40c114df36" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/Grammar.interp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/Grammar.tokens" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/GrammarBaseListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/GrammarBaseVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/GrammarLexer.interp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/GrammarLexer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/GrammarLexer.tokens" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/GrammarListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/GrammarParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/GrammarVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/antlr4/Grammar.g4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SimpleTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2JPNv92KVkoMlFRquxNdyFvxk7w" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/User/Desktop/Courses/МТ/Лабораторная работа по автоматическим генераторам парсеров/Lab3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Lab3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SimpleTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleTests.UnitTest_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SimpleTests" />
+      <option name="METHOD_NAME" value="UnitTest_1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleTests.UnitTest_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SimpleTests" />
+      <option name="METHOD_NAME" value="UnitTest_2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleTests.UnitTest_3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SimpleTests" />
+      <option name="METHOD_NAME" value="UnitTest_3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.SimpleTests" />
+        <item itemvalue="JUnit.SimpleTests.UnitTest_3" />
+        <item itemvalue="JUnit.SimpleTests.UnitTest_1" />
+        <item itemvalue="JUnit.SimpleTests.UnitTest_2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98f63d99-4e5a-48ee-a073-5e40c114df36" name="Changes" comment="" />
+      <created>1671975987899</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671975987899</updated>
+      <workItem from="1671975989248" duration="6875000" />
+      <workItem from="1671997623795" duration="5059000" />
+      <workItem from="1672061563653" duration="32000" />
+      <workItem from="1672078038566" duration="442000" />
+      <workItem from="1672088922187" duration="9718000" />
+      <workItem from="1672137802523" duration="4859000" />
+      <workItem from="1672155178121" duration="7833000" />
+      <workItem from="1672188267972" duration="1507000" />
+      <workItem from="1672199551711" duration="4531000" />
+      <workItem from="1672206365835" duration="293000" />
+      <workItem from="1672216536463" duration="3038000" />
+      <workItem from="1672322409717" duration="74000" />
+      <workItem from="1673408646231" duration="39000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

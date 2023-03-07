@@ -1,0 +1,20 @@
+s : LAMBDA v COLON e
+v : LETTER w | EPS
+w : COMMA LETTER w | EPS
+e : f a
+f : n m
+a : PLUS f a | MINUS f a | EPS
+m : MUL n m | DIV n m | EPS
+n : LETTER | NUMBER | LB e RB
+
+LAMBDA : (lambda)
+COLON : (:)
+LETTER : ([a-z][a-z|A-Z|0-9|_]*)
+COMMA : (,)
+PLUS : (\\+)
+MINUS : (\\-)
+MUL : (\\*)
+DIV : (/)
+NUMBER : ([0-9]+)
+LB     : (\\[)
+RB     : (\\])

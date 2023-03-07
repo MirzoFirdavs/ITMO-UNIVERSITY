@@ -1,0 +1,14 @@
+T__0=1
+T__1=2
+T__2=3
+T__3=4
+ARGUMENT=5
+NON_TERMINAL_NAME=6
+TERMINAL_NAME=7
+CODE=8
+REGEX=9
+WS=10
+':'=1
+'|'=2
+'returns'=3
+'EPS'=4

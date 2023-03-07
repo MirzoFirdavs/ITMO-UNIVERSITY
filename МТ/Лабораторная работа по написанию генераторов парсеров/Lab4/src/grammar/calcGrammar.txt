@@ -1,0 +1,35 @@
+s returns [double val] : expr {res.val = res.child(0).val;}
+
+expr returns [double val] : term exprCont[res.child(0).val] {res.val = res.child(1).val;}
+
+exprCont [double inh] returns [double val] : epsExpr {res.val = inh;}
+                                     | PLUS term exprCont[res.child(1).val] {res.val = inh + res.child(2).val;}
+                                     | MINUS term exprCont[res.child(1).val] {res.val = inh - res.child(2).val;}
+
+epsExpr : EPS
+
+term returns [double val] : exp termCont[res.child(0).val] {res.val = res.child(1).val;}
+
+termCont [double inh] returns [double val] : epsTerm {res.val = inh;}
+                                     | MUL exp termCont[res.child(1).val] {res.val = inh * res.child(2).val;}
+                                     | DIV exp termCont[res.child(1).val] {res.val = inh / res.child(2).val;}
+
+epsTerm : EPS
+
+exp returns [double val] : numOrBr {res.val = res.child(0).val;}
+
+numOrBr returns [double val] : NUMBER {res.val = Integer.parseInt(res.child(0).text);}
+                          | LB expr RB {res.val = res.child(1).val;}
+
+PLUS   : (\\+)
+MINUS  : (-)
+MUL    : (\\*)
+DIV    : (/)
+NUMBER : ([0-9]+)
+LB     : (\\[)
+RB     : (\\])
+EXP    : (\\^)
+SIN    : (sin)
+COS    : (cos)
+TAN    : (tan)
+COT    : (cot)
