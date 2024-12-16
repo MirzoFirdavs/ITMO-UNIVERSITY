@@ -1,0 +1,1 @@
+U(UnivName) :- Universities(UnivId, UnivName), Teams(TeamId, _, UnivId), Sessions(_, TeamId, :ContestId, _).

@@ -1,0 +1,1 @@
+pi{TeamName}(sigma{UnivName = :UnivName}(Universities nj Teams))

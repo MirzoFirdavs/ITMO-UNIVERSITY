@@ -1,0 +1,2 @@
+q(ContestId, Letter) :- Teams(TeamId, _, :UnivId), Sessions(SessionId, TeamId, ContestId, _), Runs(_, SessionId, Letter, _, 1).
+U(ContestId, Letter) :- Problems(ContestId, Letter, _), not q(ContestId, Letter).

@@ -1,0 +1,1 @@
+U(TeamId) :- Runs(_, SessionId, _, _, 1), Sessions(SessionId, TeamId, :ContestId, _).
