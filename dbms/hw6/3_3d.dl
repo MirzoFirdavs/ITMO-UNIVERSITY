@@ -1,0 +1,1 @@
+Info(StudentName, CourseName) :- Students(_, StudentName, GroupId), Groups(GroupId, _, Id), Plan(GroupId, CourseId, LecturerId), Lecturers(LecturerId, _, Id), Courses(CourseId, CourseName).

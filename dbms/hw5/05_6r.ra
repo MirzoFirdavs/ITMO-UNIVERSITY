@@ -1,0 +1,1 @@
+proj{StudentName, CourseName}(sigma{LecturerFacultyId <> GroupFacultyId}(Students njoin Groups njoin Plan njoin Courses njoin Lecturers))

@@ -1,0 +1,2 @@
+WithMarks(StudentId, StudentName, GroupName) :- Students(StudentId, StudentName, GroupId), Groups(GroupId, GroupName, _), Marks(StudentId, :CourseId, _).
+Info(StudentId, StudentName, GroupName) :- Students(StudentId, StudentName, GroupId), Groups(GroupId, GroupName, _), not WithMarks(StudentId, StudentName, GroupName).

@@ -1,0 +1,1 @@
+proj{StudentId, StudentName, GroupId}(Students) except (proj{StudentId, StudentName, GroupId}(sigma{CourseName = :CourseName}(Students nj Marks nj Courses)))

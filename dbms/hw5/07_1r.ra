@@ -1,0 +1,1 @@
+proj{CourseId, StudentId}(Marks) great-division proj{StudentId, GroupId}(Students)

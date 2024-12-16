@@ -1,0 +1,3 @@
+a(StudentId, CourseId) :- Marks(StudentId, CourseId, _).
+b(StudentId) :- Students(StudentId, _, GroupId), Plan(GroupId, CourseId, LecturerId), not a(StudentId, CourseId), Lecturers(LecturerId, :LecturerName, _).
+Info(StudentId) :- Students(StudentId, _, _), not b(StudentId).

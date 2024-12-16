@@ -1,0 +1,1 @@
+proj{StudentName, CourseName}(sigma{LecturerId = DeanId}(Students njoin Plan njoin Faculties njoin Courses))

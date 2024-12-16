@@ -1,0 +1,1 @@
+proj{StudentId, StudentName, GroupName}(sigma{FacultyName = :FacultyName}(Students njoin rename{FacultyId = GroupFacultyId}(Groups) njoin Faculties))

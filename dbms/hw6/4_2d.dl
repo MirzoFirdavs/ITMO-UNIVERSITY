@@ -1,0 +1,2 @@
+HasDept(StudentId, CourseId) :- Marks(StudentId, CourseId, Mark), Mark <= 2.
+Info(StudentName, CourseName) :- Students(StudentId, StudentName, GroupId), Plan(GroupId, CourseId, _), HasDept(StudentId, CourseId), Courses(CourseId, CourseName).

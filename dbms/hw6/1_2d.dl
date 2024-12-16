@@ -1,0 +1,1 @@
+StudentsInfo(StudentId, StudentName, GroupId) :- Groups(GroupId, GroupName, _), Students(StudentId, StudentName, GroupId), GroupName = :GroupName.
