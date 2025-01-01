@@ -1,0 +1,43 @@
+name: Kotlin hw 2 check
+on:
+  pull_request:
+    types:
+      - opened
+      - synchronize
+jobs:
+  build:
+    runs-on:
+      - self-hosted
+      - kotlin
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Ensure branch is up-to-date with main
+        run: |
+          git fetch origin main
+          if git merge-base --is-ancestor origin/main @; then
+            echo 'Tests are already up-to-date'
+          else
+            echo 'Your tests have not been updated, try to rebase main' && exit 1
+          fi
+      - uses: actions/setup-java@v4
+        with:
+          java-version: 17
+          distribution: adopt
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v3
+      - name: Build with Gradle
+        run: |
+          echo "::add-matcher::.github/problem-matchers.json"
+          ./gradlew build
+          echo "::remove-matcher owner=ktlint"
+      - name: Upload check reports
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: build-reports
+          path: build/reports/
+          retention-days: 1

@@ -1,0 +1,23 @@
+{
+  "problemMatcher": [
+    {
+      "owner": "ktlint",
+      "pattern": [
+        {
+          // Matches the 1st line in the output
+          "regexp": "^>\\sTask\\s:\\S+:ktlintMainSourceSetCheck\\sFAILED"
+        },
+        {
+          // Matches the 2nd and 3rd line in the output
+          "regexp": "^\\/_work\\/[\\w-]+\\/[\\w-]+\\/[\\w-]+\\/(\\S+):(\\d+):(\\d+)\\s(.+)",
+          // File is carried through from above, so we define the rest of the groups
+          "file": 1,
+          "line": 2,
+          "column": 3,
+          "message": 4,
+          "loop": true
+          }
+      ]
+    }
+  ]
+}
